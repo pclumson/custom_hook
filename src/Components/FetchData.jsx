@@ -27,6 +27,8 @@ const FetchData = () => {
 
           <h3>{e.name}</h3>
 
+           <img className="product-image" src={e.image} alt={e.name} />
+
           <p><strong>Importance: </strong>{e.importance}</p>
 
           <p><strong>Benefits: </strong>{e.benefits6}</p>
